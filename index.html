@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "spicon.png">
+    <link rel = "stylesheet" href = "style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Profile card</title>
+</head>
+<body>
+    <div class="pc">
+        <div class="image">
+            <img src = "suveshpiccopy.jpg" class="profile-img" alt = "">
+        </div>
+        <div class="data">
+            <div class="name">Suvesh Pandey</div>
+            <div class="job">Learner</div>
+        </div>
+        <div class="media-btns">
+            <a href="mailto:jpsuvesh29@gmail.com" style = "background: #2f5cb7" class = "link"><i class='bx bxl-gmail'></i></a>
+
+            <a href = "https://www.linkedin.com/in/suvesh-pandey-b33076286/" style = "background: #4b35ed" class = "link"><i class='bx bxl-linkedin' ></i></a>
+
+            
+            <a href = "https://t.me/SuveshPandey" style = "background: #376cf2" class = "link"><i class='bx bxl-telegram'></i></a>
+
+            <a href = "https://www.instagram.com/suvesh_298/" style = "background: #e1304a" class = "link"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        <div class="buttons">
+            <button class = "button" onclick="redirectToResume()" >Resume</button>
+            <button class = "button"  onclick="redirectToProjects()" >Projects</button>
+        </div>
+    </div>
+    <script>
+        function redirectToResume() {
+            window.location.href = "Resume-Suvesh-Pandey (1).pdf";
+        }
+        function redirectToProjects() {
+            window.location.href = "project.html";
+        }
+        
+
+    </script>
+</body>
+</html>
